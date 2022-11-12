@@ -57,5 +57,9 @@ function checkWinner() {
   } else if (homeCount < guestCount) {
     homeScoreP.style.border = null;
     guestScoreP.style.border = "1px solid green";
+  } else {
+        guestScoreP.style.border = null;
+        homeScoreP.style.border = null;
+
   }
 }
